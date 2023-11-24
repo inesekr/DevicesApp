@@ -9,8 +9,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <div style={{ backgroundColor: '#E2E3E9'}} className="min-h-screen">
-    <App />
+      <App />
     </div>
   </React.StrictMode>
 );
-

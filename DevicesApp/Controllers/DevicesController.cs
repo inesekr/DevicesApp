@@ -36,7 +36,7 @@ namespace DevicesApp.Controllers
                 return NotFound();
             }
 
-            return device;
+            return Ok(device);
         }
 
         [HttpPost]
